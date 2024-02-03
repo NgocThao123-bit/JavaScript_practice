@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1</title>
+
+    <style>
+        h1{
+            top:10px;
+            text-align: center;
+        }
+        input{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript practice 1</h1>
+    <!-- ========== Start - CALCULATE AREA RECTANGLE ========= -->
+    <h4>Problem 01</h4>
+    <h5>Caculate Area of Rectangle</h5>
+    <form id="rectangleCal">
+        <label for="width"> Enter value of width: </label>
+        <input id="width" type="text" required>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="height"> Enter value of height: </label>
+        <input id="height" type="text" required>
+        <br>
+        <br>
+
+        <button type="button" onclick="calculateRectangleArea()">Calculate</button>
+        <br>
+        <p id="result"></p>
+    </form>
+    <!-- ========== End ========= -->
+
+    <!-- ========== Start - Check Temperature ========= -->
+    <h4>Task 1: If-Else Statements</h4>
+    <h5>Check Temperature</h5>
+
+    <label for="temperatureInput">Enter a temperature:</label>
+    <input type="text" id="temperatureInput">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button onclick="checkTemperature()">Check Temperature</button>
+    <!-- ========== End ========= -->
+
+    <!-- ========== Start - Check Temperature ========= -->
+    <h4>Task 2: Switch Statement</h4>
+    <h5>Get Day Name </h5>
+
+    <label for="dayNumber">Enter a day number:</label>
+    <input type="text" id="dayNumber">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button onclick="getDayName()">Get Day Name</button>
+    <!-- ========== End ========= -->
+
+    <!-- ========== Start - For Loop ========= -->
+    <h4>Task 3: For Loop</h4>
+    <h5>Print Numbers  </h5>
+
+    <label for="number">Enter a positive integer:</label>
+    <input type="text" id="number">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button onclick="printNumbers()">Print</button>
+    <!-- ========== End ========= -->
+
+    <!-- ========== Start - While Loop ========= -->
+    <h4>Task 4: While Loop</h4>
+    <h5>Reverse String   </h5>
+
+    <label for="stringInput">Enter a string:</label>
+    <input type="text" id="stringInput" style="width: 100px;">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button onclick="reverseString()">Reverse</button>
+    <!-- ========== End ========= -->
+
+    <!-- ========== Start - Nested Control Flow ========= -->
+    <h4>Task 5: Nested Control Flow</h4>
+    <h5>Grade Classifier</h5>
+
+    <label for="numberic">Enter a numberic grade:</label>
+    <input type="text" id="numberic">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button onclick="gradeClassifier()">Classify</button>
+    <!-- ========== End ========= -->
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+    <script src="./functions.js"></script>
+    <style>
+        input{
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+        <!-- Form to greet the user -->
+    <form>
+        <h4>Greet!</h4>
+        <label for="name">Enter a name: </label>
+        <input type="text" id="name">
+        <button type="button" onclick="sayHello()">click me</button>
+    </form>
+
+    <!-- Form to perform basic arithmetic operations -->
+    <form>
+        <h4>Operation</h4>
+
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+
+    <!-- Form to calculate the factorial of a given number -->
+    <form>
+        <h4>Calculates the factorial of a given number.</h4>
+
+        <label for="number">Enter a number: </label>
+        <input type="text" id="number">
+        <button type="button" onclick="factorial()">Result</button>
+    </form>
+
+    <!-- Form to apply a function to each element in an array -->
+    <form>
+        <h4>Apply the function to each element in the array.</h4>
+        <p>Old Array = [1, 2 , 3 , 4, 5]</p>
+        <button type="button" onclick="operateOnArray()">New Array</button>
+    </form>
+
+</body>
+</html>

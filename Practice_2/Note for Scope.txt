@@ -1,0 +1,18 @@
+1. Global Scope:
+­	Variables declared outside any function or block have global scope.
+­	Accessible from any part of the code, both inside and outside functions.
+­	Demonstrated using the var keyword for global variables.
+2. Local Scope with Functions:
+­	Variables declared inside a function have local scope to that function.
+­	Accessible only within the function where they are declared.
+­	Demonstrated using the var or let keywords for local variables.
+3. Nested Scope:
+­	Refers to situations where one scope is nested within another, such as a function within a function.
+­	Inner scopes have access to variables in outer scopes, but not vice versa.
+­	Demonstrated using functions declared within other functions.
+4. Block Scope:
+­	Introduced with the let and const keywords in modern JavaScript.
+­	Variables declared within a block (e.g., if statements or loops) have block scope.
+­	Accessible only within the block where they are declared.
+­	Allows for more controlled variable scope, reducing the risk of unintended variable leakage.
+­	Demonstrated using the let keyword within if statements and for loops.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+    <script src="problem_scope.js"></script>
+</head>
+<body>
+    <h4>Create a variable globalVar in the global scope. Inside a function called checkScope, attempt to log the value of globalVar. Explain the outcome.</h4>
+    <button onclick="checkScope()">Click me</button>
+    <p id="result"></p>
+
+    <h4>Write a function called modifyGlobalVariable that attempts to modify the value of a global variable globalVar by incrementing it. Explain the outcome.</h4>
+    <button onclick="modifyGlobalVariable()">Click me</button>
+    <p id="result2"></p>
+
+    <h4>Create a function called outerFunction that declares a variable outerVar. Inside outerFunction, define another function called innerFunction that attempts to log the value of outerVar. Call outerFunction and explain the outcome.</h4>
+    <button onclick="outerFunction()">Click me</button>
+    <p id="result3"></p>
+
+    <h4>Write a function named lexicalScopeExample that demonstrates lexical scope. Inside this function, declare a variable outerVariable. Within the function, define another function called innerFunction that attempts to log the value of outerVariable. Call lexicalScopeExample and explain the outcome.</h4>
+    <button onclick="lexicalScopeExample()">Click me</button>
+    <p id="result4"></p>
+
+</body>
+</html>
